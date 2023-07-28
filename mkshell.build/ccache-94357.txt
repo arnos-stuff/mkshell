@@ -1,0 +1,888 @@
+[2023-07-28T05:19:05.667419 94374] === CCACHE 4.7.5 STARTED =========================================
+[2023-07-28T05:19:05.667442 94374] Configuration file: /home/shae/.cache/Nuitka/ccache/ccache.conf
+[2023-07-28T05:19:05.667447 94374] System configuration file: /etc/ccache.conf
+[2023-07-28T05:19:05.667447 94374] Config: (default) absolute_paths_in_stderr = false
+[2023-07-28T05:19:05.667447 94374] Config: (default) base_dir = 
+[2023-07-28T05:19:05.667447 94374] Config: (environment) cache_dir = /home/shae/.cache/Nuitka/ccache
+[2023-07-28T05:19:05.667447 94374] Config: (default) compiler = 
+[2023-07-28T05:19:05.667447 94374] Config: (default) compiler_check = mtime
+[2023-07-28T05:19:05.667447 94374] Config: (default) compiler_type = auto
+[2023-07-28T05:19:05.667447 94374] Config: (default) compression = true
+[2023-07-28T05:19:05.667447 94374] Config: (default) compression_level = 0
+[2023-07-28T05:19:05.667447 94374] Config: (default) cpp_extension = 
+[2023-07-28T05:19:05.667447 94374] Config: (default) debug = false
+[2023-07-28T05:19:05.667447 94374] Config: (default) debug_dir = 
+[2023-07-28T05:19:05.667447 94374] Config: (default) depend_mode = false
+[2023-07-28T05:19:05.667447 94374] Config: (default) direct_mode = true
+[2023-07-28T05:19:05.667447 94374] Config: (default) disable = false
+[2023-07-28T05:19:05.667447 94374] Config: (default) extra_files_to_hash = 
+[2023-07-28T05:19:05.667447 94374] Config: (default) file_clone = false
+[2023-07-28T05:19:05.667447 94374] Config: (default) hard_link = false
+[2023-07-28T05:19:05.667447 94374] Config: (default) hash_dir = true
+[2023-07-28T05:19:05.667447 94374] Config: (default) ignore_headers_in_manifest = 
+[2023-07-28T05:19:05.667447 94374] Config: (default) ignore_options = 
+[2023-07-28T05:19:05.667447 94374] Config: (default) inode_cache = false
+[2023-07-28T05:19:05.667447 94374] Config: (default) keep_comments_cpp = false
+[2023-07-28T05:19:05.667447 94374] Config: (default) limit_multiple = 0.8
+[2023-07-28T05:19:05.667447 94374] Config: (environment) log_file = /home/shae/Code/cli/python/mkshell/mkshell.build/ccache-94357.txt
+[2023-07-28T05:19:05.667447 94374] Config: (default) max_files = 0
+[2023-07-28T05:19:05.667447 94374] Config: (default) max_size = 5.0G
+[2023-07-28T05:19:05.667447 94374] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-07-28T05:19:05.667447 94374] Config: (default) namespace = 
+[2023-07-28T05:19:05.667447 94374] Config: (default) path = 
+[2023-07-28T05:19:05.667447 94374] Config: (default) pch_external_checksum = false
+[2023-07-28T05:19:05.667447 94374] Config: (default) prefix_command = 
+[2023-07-28T05:19:05.667447 94374] Config: (default) prefix_command_cpp = 
+[2023-07-28T05:19:05.667447 94374] Config: (default) read_only = false
+[2023-07-28T05:19:05.667447 94374] Config: (default) read_only_direct = false
+[2023-07-28T05:19:05.667447 94374] Config: (default) recache = false
+[2023-07-28T05:19:05.667447 94374] Config: (default) remote_only = false
+[2023-07-28T05:19:05.667447 94374] Config: (default) remote_storage = 
+[2023-07-28T05:19:05.667447 94374] Config: (default) reshare = false
+[2023-07-28T05:19:05.667447 94374] Config: (default) run_second_cpp = true
+[2023-07-28T05:19:05.667447 94374] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-07-28T05:19:05.667447 94374] Config: (default) stats = true
+[2023-07-28T05:19:05.667447 94374] Config: (default) stats_log = 
+[2023-07-28T05:19:05.667447 94374] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-07-28T05:19:05.667447 94374] Config: (default) umask = 
+[2023-07-28T05:19:05.667473 94374] Command line: /usr/bin/ccache /usr/bin/gcc -o __constants.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -fPIC -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.11 -I. -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/include -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/static_src __constants.c
+[2023-07-28T05:19:05.667479 94374] Hostname: egirl
+[2023-07-28T05:19:05.667480 94374] Working directory: /home/shae/Code/cli/python/mkshell/mkshell.build
+[2023-07-28T05:19:05.667482 94374] Compiler type: gcc
+[2023-07-28T05:19:05.667516 94374] Source file: __constants.c
+[2023-07-28T05:19:05.667518 94374] Object file: __constants.o
+[2023-07-28T05:19:05.667527 94374] Trying direct lookup
+[2023-07-28T05:19:05.667547 94374] Manifest key: 077fq4icsnntnatgh0659s86c47lskihm
+[2023-07-28T05:19:05.667562 94374] Retrieved 077fq4icsnntnatgh0659s86c47lskihm from local storage (/home/shae/.cache/Nuitka/ccache/0/7/7fq4icsnntnatgh0659s86c47lskihmM)
+[2023-07-28T05:19:05.669776 94374] Got result key from manifest
+[2023-07-28T05:19:05.669800 94374] Result key: f88atqm6pmtg6u9u6fcnm4fu2v6egt8o8
+[2023-07-28T05:19:05.669825 94374] Retrieved f88atqm6pmtg6u9u6fcnm4fu2v6egt8o8 from local storage (/home/shae/.cache/Nuitka/ccache/f/8/8atqm6pmtg6u9u6fcnm4fu2v6egt8o8R)
+[2023-07-28T05:19:05.669854 94374] Reading embedded entry #0 .o (5096 bytes)
+[2023-07-28T05:19:05.669857 94374] Writing to __constants.o
+[2023-07-28T05:19:05.669915 94374] Succeeded getting cached result
+[2023-07-28T05:19:05.669928 94374] Result: direct_cache_hit
+[2023-07-28T05:19:05.669930 94374] Result: local_storage_hit
+[2023-07-28T05:19:05.669932 94374] Result: local_storage_read_hit
+[2023-07-28T05:19:05.669933 94374] Result: local_storage_read_hit
+[2023-07-28T05:19:05.669943 94374] Acquiring /home/shae/.cache/Nuitka/ccache/a/6/stats.lock
+[2023-07-28T05:19:05.670040 94374] Acquired /home/shae/.cache/Nuitka/ccache/a/6/stats.lock
+[2023-07-28T05:19:05.670090 94374] Releasing /home/shae/.cache/Nuitka/ccache/a/6/stats.lock
+[2023-07-28T05:19:05.670107 94374] Unlink /home/shae/.cache/Nuitka/ccache/a/6/stats.lock
+[2023-07-28T05:19:05.670110 94374] Released /home/shae/.cache/Nuitka/ccache/a/6/stats.lock
+[2023-07-28T05:19:05.672334 94376] === CCACHE 4.7.5 STARTED =========================================
+[2023-07-28T05:19:05.672347 94376] Configuration file: /home/shae/.cache/Nuitka/ccache/ccache.conf
+[2023-07-28T05:19:05.672349 94376] System configuration file: /etc/ccache.conf
+[2023-07-28T05:19:05.672349 94376] Config: (default) absolute_paths_in_stderr = false
+[2023-07-28T05:19:05.672349 94376] Config: (default) base_dir = 
+[2023-07-28T05:19:05.672349 94376] Config: (environment) cache_dir = /home/shae/.cache/Nuitka/ccache
+[2023-07-28T05:19:05.672349 94376] Config: (default) compiler = 
+[2023-07-28T05:19:05.672349 94376] Config: (default) compiler_check = mtime
+[2023-07-28T05:19:05.672349 94376] Config: (default) compiler_type = auto
+[2023-07-28T05:19:05.672349 94376] Config: (default) compression = true
+[2023-07-28T05:19:05.672349 94376] Config: (default) compression_level = 0
+[2023-07-28T05:19:05.672349 94376] Config: (default) cpp_extension = 
+[2023-07-28T05:19:05.672349 94376] Config: (default) debug = false
+[2023-07-28T05:19:05.672349 94376] Config: (default) debug_dir = 
+[2023-07-28T05:19:05.672349 94376] Config: (default) depend_mode = false
+[2023-07-28T05:19:05.672349 94376] Config: (default) direct_mode = true
+[2023-07-28T05:19:05.672349 94376] Config: (environment) disable = true
+[2023-07-28T05:19:05.672349 94376] Config: (default) extra_files_to_hash = 
+[2023-07-28T05:19:05.672349 94376] Config: (default) file_clone = false
+[2023-07-28T05:19:05.672349 94376] Config: (default) hard_link = false
+[2023-07-28T05:19:05.672349 94376] Config: (default) hash_dir = true
+[2023-07-28T05:19:05.672349 94376] Config: (default) ignore_headers_in_manifest = 
+[2023-07-28T05:19:05.672349 94376] Config: (default) ignore_options = 
+[2023-07-28T05:19:05.672349 94376] Config: (default) inode_cache = false
+[2023-07-28T05:19:05.672349 94376] Config: (default) keep_comments_cpp = false
+[2023-07-28T05:19:05.672349 94376] Config: (default) limit_multiple = 0.8
+[2023-07-28T05:19:05.672349 94376] Config: (environment) log_file = /home/shae/Code/cli/python/mkshell/mkshell.build/ccache-94357.txt
+[2023-07-28T05:19:05.672349 94376] Config: (default) max_files = 0
+[2023-07-28T05:19:05.672349 94376] Config: (default) max_size = 5.0G
+[2023-07-28T05:19:05.672349 94376] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-07-28T05:19:05.672349 94376] Config: (default) namespace = 
+[2023-07-28T05:19:05.672349 94376] Config: (default) path = 
+[2023-07-28T05:19:05.672349 94376] Config: (default) pch_external_checksum = false
+[2023-07-28T05:19:05.672349 94376] Config: (default) prefix_command = 
+[2023-07-28T05:19:05.672349 94376] Config: (default) prefix_command_cpp = 
+[2023-07-28T05:19:05.672349 94376] Config: (default) read_only = false
+[2023-07-28T05:19:05.672349 94376] Config: (default) read_only_direct = false
+[2023-07-28T05:19:05.672349 94376] Config: (default) recache = false
+[2023-07-28T05:19:05.672349 94376] Config: (default) remote_only = false
+[2023-07-28T05:19:05.672349 94376] Config: (default) remote_storage = 
+[2023-07-28T05:19:05.672349 94376] Config: (default) reshare = false
+[2023-07-28T05:19:05.672349 94376] Config: (default) run_second_cpp = true
+[2023-07-28T05:19:05.672349 94376] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-07-28T05:19:05.672349 94376] Config: (default) stats = true
+[2023-07-28T05:19:05.672349 94376] Config: (default) stats_log = 
+[2023-07-28T05:19:05.672349 94376] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-07-28T05:19:05.672349 94376] Config: (default) umask = 
+[2023-07-28T05:19:05.672370 94376] ccache is disabled
+[2023-07-28T05:19:05.672378 94376] Failed; falling back to running the real compiler
+[2023-07-28T05:19:05.672381 94376] Executing /usr/bin/gcc -o __constants_data.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -fPIC -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.11 -I. -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/include -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/static_src __constants_data.c
+[2023-07-28T05:19:05.672383 94376] Result: disabled
+[2023-07-28T05:19:05.674401 94378] === CCACHE 4.7.5 STARTED =========================================
+[2023-07-28T05:19:05.674414 94378] Configuration file: /home/shae/.cache/Nuitka/ccache/ccache.conf
+[2023-07-28T05:19:05.674417 94378] System configuration file: /etc/ccache.conf
+[2023-07-28T05:19:05.674417 94378] Config: (default) absolute_paths_in_stderr = false
+[2023-07-28T05:19:05.674417 94378] Config: (default) base_dir = 
+[2023-07-28T05:19:05.674417 94378] Config: (environment) cache_dir = /home/shae/.cache/Nuitka/ccache
+[2023-07-28T05:19:05.674417 94378] Config: (default) compiler = 
+[2023-07-28T05:19:05.674417 94378] Config: (default) compiler_check = mtime
+[2023-07-28T05:19:05.674417 94378] Config: (default) compiler_type = auto
+[2023-07-28T05:19:05.674417 94378] Config: (default) compression = true
+[2023-07-28T05:19:05.674417 94378] Config: (default) compression_level = 0
+[2023-07-28T05:19:05.674417 94378] Config: (default) cpp_extension = 
+[2023-07-28T05:19:05.674417 94378] Config: (default) debug = false
+[2023-07-28T05:19:05.674417 94378] Config: (default) debug_dir = 
+[2023-07-28T05:19:05.674417 94378] Config: (default) depend_mode = false
+[2023-07-28T05:19:05.674417 94378] Config: (default) direct_mode = true
+[2023-07-28T05:19:05.674417 94378] Config: (default) disable = false
+[2023-07-28T05:19:05.674417 94378] Config: (default) extra_files_to_hash = 
+[2023-07-28T05:19:05.674417 94378] Config: (default) file_clone = false
+[2023-07-28T05:19:05.674417 94378] Config: (default) hard_link = false
+[2023-07-28T05:19:05.674417 94378] Config: (default) hash_dir = true
+[2023-07-28T05:19:05.674417 94378] Config: (default) ignore_headers_in_manifest = 
+[2023-07-28T05:19:05.674417 94378] Config: (default) ignore_options = 
+[2023-07-28T05:19:05.674417 94378] Config: (default) inode_cache = false
+[2023-07-28T05:19:05.674417 94378] Config: (default) keep_comments_cpp = false
+[2023-07-28T05:19:05.674417 94378] Config: (default) limit_multiple = 0.8
+[2023-07-28T05:19:05.674417 94378] Config: (environment) log_file = /home/shae/Code/cli/python/mkshell/mkshell.build/ccache-94357.txt
+[2023-07-28T05:19:05.674417 94378] Config: (default) max_files = 0
+[2023-07-28T05:19:05.674417 94378] Config: (default) max_size = 5.0G
+[2023-07-28T05:19:05.674417 94378] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-07-28T05:19:05.674417 94378] Config: (default) namespace = 
+[2023-07-28T05:19:05.674417 94378] Config: (default) path = 
+[2023-07-28T05:19:05.674417 94378] Config: (default) pch_external_checksum = false
+[2023-07-28T05:19:05.674417 94378] Config: (default) prefix_command = 
+[2023-07-28T05:19:05.674417 94378] Config: (default) prefix_command_cpp = 
+[2023-07-28T05:19:05.674417 94378] Config: (default) read_only = false
+[2023-07-28T05:19:05.674417 94378] Config: (default) read_only_direct = false
+[2023-07-28T05:19:05.674417 94378] Config: (default) recache = false
+[2023-07-28T05:19:05.674417 94378] Config: (default) remote_only = false
+[2023-07-28T05:19:05.674417 94378] Config: (default) remote_storage = 
+[2023-07-28T05:19:05.674417 94378] Config: (default) reshare = false
+[2023-07-28T05:19:05.674417 94378] Config: (default) run_second_cpp = true
+[2023-07-28T05:19:05.674417 94378] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-07-28T05:19:05.674417 94378] Config: (default) stats = true
+[2023-07-28T05:19:05.674417 94378] Config: (default) stats_log = 
+[2023-07-28T05:19:05.674417 94378] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-07-28T05:19:05.674417 94378] Config: (default) umask = 
+[2023-07-28T05:19:05.674439 94378] Command line: /usr/bin/ccache /usr/bin/gcc -o __helpers.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -fPIC -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.11 -I. -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/include -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/static_src __helpers.c
+[2023-07-28T05:19:05.674446 94378] Hostname: egirl
+[2023-07-28T05:19:05.674448 94378] Working directory: /home/shae/Code/cli/python/mkshell/mkshell.build
+[2023-07-28T05:19:05.674450 94378] Compiler type: gcc
+[2023-07-28T05:19:05.674481 94378] Source file: __helpers.c
+[2023-07-28T05:19:05.674483 94378] Object file: __helpers.o
+[2023-07-28T05:19:05.674491 94378] Trying direct lookup
+[2023-07-28T05:19:05.674503 94378] Manifest key: 8b74jpu2rtp8gpipu2qh8sioiq0lobbum
+[2023-07-28T05:19:05.674519 94378] Retrieved 8b74jpu2rtp8gpipu2qh8sioiq0lobbum from local storage (/home/shae/.cache/Nuitka/ccache/8/b/74jpu2rtp8gpipu2qh8sioiq0lobbumM)
+[2023-07-28T05:19:05.676612 94378] Got result key from manifest
+[2023-07-28T05:19:05.676621 94378] Result key: bae0g8hkajo0q7i3jl4pciufpdbtlruho
+[2023-07-28T05:19:05.676629 94378] Retrieved bae0g8hkajo0q7i3jl4pciufpdbtlruho from local storage (/home/shae/.cache/Nuitka/ccache/b/a/e0g8hkajo0q7i3jl4pciufpdbtlruhoR)
+[2023-07-28T05:19:05.676652 94378] Reading embedded entry #0 .o (952 bytes)
+[2023-07-28T05:19:05.676653 94378] Writing to __helpers.o
+[2023-07-28T05:19:05.676675 94378] Succeeded getting cached result
+[2023-07-28T05:19:05.676680 94378] Result: direct_cache_hit
+[2023-07-28T05:19:05.676682 94378] Result: local_storage_hit
+[2023-07-28T05:19:05.676683 94378] Result: local_storage_read_hit
+[2023-07-28T05:19:05.676684 94378] Result: local_storage_read_hit
+[2023-07-28T05:19:05.676690 94378] Acquiring /home/shae/.cache/Nuitka/ccache/a/a/stats.lock
+[2023-07-28T05:19:05.676724 94378] Acquired /home/shae/.cache/Nuitka/ccache/a/a/stats.lock
+[2023-07-28T05:19:05.676754 94378] Releasing /home/shae/.cache/Nuitka/ccache/a/a/stats.lock
+[2023-07-28T05:19:05.676763 94378] Unlink /home/shae/.cache/Nuitka/ccache/a/a/stats.lock
+[2023-07-28T05:19:05.676765 94378] Released /home/shae/.cache/Nuitka/ccache/a/a/stats.lock
+[2023-07-28T05:19:05.677982 94382] === CCACHE 4.7.5 STARTED =========================================
+[2023-07-28T05:19:05.678034 94382] Configuration file: /home/shae/.cache/Nuitka/ccache/ccache.conf
+[2023-07-28T05:19:05.678068 94382] System configuration file: /etc/ccache.conf
+[2023-07-28T05:19:05.678068 94382] Config: (default) absolute_paths_in_stderr = false
+[2023-07-28T05:19:05.678068 94382] Config: (default) base_dir = 
+[2023-07-28T05:19:05.678068 94382] Config: (environment) cache_dir = /home/shae/.cache/Nuitka/ccache
+[2023-07-28T05:19:05.678068 94382] Config: (default) compiler = 
+[2023-07-28T05:19:05.678068 94382] Config: (default) compiler_check = mtime
+[2023-07-28T05:19:05.678068 94382] Config: (default) compiler_type = auto
+[2023-07-28T05:19:05.678068 94382] Config: (default) compression = true
+[2023-07-28T05:19:05.678068 94382] Config: (default) compression_level = 0
+[2023-07-28T05:19:05.678068 94382] Config: (default) cpp_extension = 
+[2023-07-28T05:19:05.678068 94382] Config: (default) debug = false
+[2023-07-28T05:19:05.678068 94382] Config: (default) debug_dir = 
+[2023-07-28T05:19:05.678068 94382] Config: (default) depend_mode = false
+[2023-07-28T05:19:05.678068 94382] Config: (default) direct_mode = true
+[2023-07-28T05:19:05.678068 94382] Config: (default) disable = false
+[2023-07-28T05:19:05.678068 94382] Config: (default) extra_files_to_hash = 
+[2023-07-28T05:19:05.678068 94382] Config: (default) file_clone = false
+[2023-07-28T05:19:05.678068 94382] Config: (default) hard_link = false
+[2023-07-28T05:19:05.678068 94382] Config: (default) hash_dir = true
+[2023-07-28T05:19:05.678068 94382] Config: (default) ignore_headers_in_manifest = 
+[2023-07-28T05:19:05.678068 94382] Config: (default) ignore_options = 
+[2023-07-28T05:19:05.678068 94382] Config: (default) inode_cache = false
+[2023-07-28T05:19:05.678068 94382] Config: (default) keep_comments_cpp = false
+[2023-07-28T05:19:05.678068 94382] Config: (default) limit_multiple = 0.8
+[2023-07-28T05:19:05.678068 94382] Config: (environment) log_file = /home/shae/Code/cli/python/mkshell/mkshell.build/ccache-94357.txt
+[2023-07-28T05:19:05.678068 94382] Config: (default) max_files = 0
+[2023-07-28T05:19:05.678068 94382] Config: (default) max_size = 5.0G
+[2023-07-28T05:19:05.678068 94382] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-07-28T05:19:05.678068 94382] Config: (default) namespace = 
+[2023-07-28T05:19:05.678068 94382] Config: (default) path = 
+[2023-07-28T05:19:05.678068 94382] Config: (default) pch_external_checksum = false
+[2023-07-28T05:19:05.678068 94382] Config: (default) prefix_command = 
+[2023-07-28T05:19:05.678068 94382] Config: (default) prefix_command_cpp = 
+[2023-07-28T05:19:05.678068 94382] Config: (default) read_only = false
+[2023-07-28T05:19:05.678068 94382] Config: (default) read_only_direct = false
+[2023-07-28T05:19:05.678068 94382] Config: (default) recache = false
+[2023-07-28T05:19:05.678068 94382] Config: (default) remote_only = false
+[2023-07-28T05:19:05.678068 94382] Config: (default) remote_storage = 
+[2023-07-28T05:19:05.678068 94382] Config: (default) reshare = false
+[2023-07-28T05:19:05.678068 94382] Config: (default) run_second_cpp = true
+[2023-07-28T05:19:05.678068 94382] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-07-28T05:19:05.678068 94382] Config: (default) stats = true
+[2023-07-28T05:19:05.678068 94382] Config: (default) stats_log = 
+[2023-07-28T05:19:05.678068 94382] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-07-28T05:19:05.678068 94382] Config: (default) umask = 
+[2023-07-28T05:19:05.678123 94382] Command line: /usr/bin/ccache /usr/bin/gcc -o __loader.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -fPIC -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.11 -I. -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/include -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/static_src __loader.c
+[2023-07-28T05:19:05.678160 94382] Hostname: egirl
+[2023-07-28T05:19:05.678192 94382] Working directory: /home/shae/Code/cli/python/mkshell/mkshell.build
+[2023-07-28T05:19:05.678223 94382] Compiler type: gcc
+[2023-07-28T05:19:05.678288 94382] Source file: __loader.c
+[2023-07-28T05:19:05.678320 94382] Object file: __loader.o
+[2023-07-28T05:19:05.678359 94382] Trying direct lookup
+[2023-07-28T05:19:05.678408 94382] Manifest key: 1bcepcg1tsnf20s3lo0p9hm8giro9q20c
+[2023-07-28T05:19:05.678447 94382] No 1bcepcg1tsnf20s3lo0p9hm8giro9q20c in local storage
+[2023-07-28T05:19:05.678495 94382] Running preprocessor
+[2023-07-28T05:19:05.678536 94382] Executing /usr/bin/gcc -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -fPIC -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.11 -I. -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/include -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/static_src -E -o /run/user/1000/ccache-tmp/cpp_stdout.tmp.gr2eK4.i __loader.c
+[2023-07-28T05:19:05.686257 94386] === CCACHE 4.7.5 STARTED =========================================
+[2023-07-28T05:19:05.686311 94386] Configuration file: /home/shae/.cache/Nuitka/ccache/ccache.conf
+[2023-07-28T05:19:05.686352 94386] System configuration file: /etc/ccache.conf
+[2023-07-28T05:19:05.686352 94386] Config: (default) absolute_paths_in_stderr = false
+[2023-07-28T05:19:05.686352 94386] Config: (default) base_dir = 
+[2023-07-28T05:19:05.686352 94386] Config: (environment) cache_dir = /home/shae/.cache/Nuitka/ccache
+[2023-07-28T05:19:05.686352 94386] Config: (default) compiler = 
+[2023-07-28T05:19:05.686352 94386] Config: (default) compiler_check = mtime
+[2023-07-28T05:19:05.686352 94386] Config: (default) compiler_type = auto
+[2023-07-28T05:19:05.686352 94386] Config: (default) compression = true
+[2023-07-28T05:19:05.686352 94386] Config: (default) compression_level = 0
+[2023-07-28T05:19:05.686352 94386] Config: (default) cpp_extension = 
+[2023-07-28T05:19:05.686352 94386] Config: (default) debug = false
+[2023-07-28T05:19:05.686352 94386] Config: (default) debug_dir = 
+[2023-07-28T05:19:05.686352 94386] Config: (default) depend_mode = false
+[2023-07-28T05:19:05.686352 94386] Config: (default) direct_mode = true
+[2023-07-28T05:19:05.686352 94386] Config: (default) disable = false
+[2023-07-28T05:19:05.686352 94386] Config: (default) extra_files_to_hash = 
+[2023-07-28T05:19:05.686352 94386] Config: (default) file_clone = false
+[2023-07-28T05:19:05.686352 94386] Config: (default) hard_link = false
+[2023-07-28T05:19:05.686352 94386] Config: (default) hash_dir = true
+[2023-07-28T05:19:05.686352 94386] Config: (default) ignore_headers_in_manifest = 
+[2023-07-28T05:19:05.686352 94386] Config: (default) ignore_options = 
+[2023-07-28T05:19:05.686352 94386] Config: (default) inode_cache = false
+[2023-07-28T05:19:05.686352 94386] Config: (default) keep_comments_cpp = false
+[2023-07-28T05:19:05.686352 94386] Config: (default) limit_multiple = 0.8
+[2023-07-28T05:19:05.686352 94386] Config: (environment) log_file = /home/shae/Code/cli/python/mkshell/mkshell.build/ccache-94357.txt
+[2023-07-28T05:19:05.686352 94386] Config: (default) max_files = 0
+[2023-07-28T05:19:05.686352 94386] Config: (default) max_size = 5.0G
+[2023-07-28T05:19:05.686352 94386] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-07-28T05:19:05.686352 94386] Config: (default) namespace = 
+[2023-07-28T05:19:05.686352 94386] Config: (default) path = 
+[2023-07-28T05:19:05.686352 94386] Config: (default) pch_external_checksum = false
+[2023-07-28T05:19:05.686352 94386] Config: (default) prefix_command = 
+[2023-07-28T05:19:05.686352 94386] Config: (default) prefix_command_cpp = 
+[2023-07-28T05:19:05.686352 94386] Config: (default) read_only = false
+[2023-07-28T05:19:05.686352 94386] Config: (default) read_only_direct = false
+[2023-07-28T05:19:05.686352 94386] Config: (default) recache = false
+[2023-07-28T05:19:05.686352 94386] Config: (default) remote_only = false
+[2023-07-28T05:19:05.686352 94386] Config: (default) remote_storage = 
+[2023-07-28T05:19:05.686352 94386] Config: (default) reshare = false
+[2023-07-28T05:19:05.686352 94386] Config: (default) run_second_cpp = true
+[2023-07-28T05:19:05.686352 94386] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-07-28T05:19:05.686352 94386] Config: (default) stats = true
+[2023-07-28T05:19:05.686352 94386] Config: (default) stats_log = 
+[2023-07-28T05:19:05.686352 94386] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-07-28T05:19:05.686352 94386] Config: (default) umask = 
+[2023-07-28T05:19:05.686410 94386] Command line: /usr/bin/ccache /usr/bin/gcc -o module.mkshell.__main__.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -fPIC -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.11 -I. -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/include -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/static_src module.mkshell.__main__.c
+[2023-07-28T05:19:05.686450 94386] Hostname: egirl
+[2023-07-28T05:19:05.686484 94386] Working directory: /home/shae/Code/cli/python/mkshell/mkshell.build
+[2023-07-28T05:19:05.686517 94386] Compiler type: gcc
+[2023-07-28T05:19:05.686588 94386] Source file: module.mkshell.__main__.c
+[2023-07-28T05:19:05.686624 94386] Object file: module.mkshell.__main__.o
+[2023-07-28T05:19:05.686666 94386] Trying direct lookup
+[2023-07-28T05:19:05.686737 94386] Manifest key: 6ee3l6qf3cneaklbipjtgm1he3flpuflk
+[2023-07-28T05:19:05.686781 94386] No 6ee3l6qf3cneaklbipjtgm1he3flpuflk in local storage
+[2023-07-28T05:19:05.686833 94386] Running preprocessor
+[2023-07-28T05:19:05.686877 94386] Executing /usr/bin/gcc -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -fPIC -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.11 -I. -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/include -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/static_src -E -o /run/user/1000/ccache-tmp/cpp_stdout.tmp.3hbqoJ.i module.mkshell.__main__.c
+[2023-07-28T05:19:05.693594 94391] === CCACHE 4.7.5 STARTED =========================================
+[2023-07-28T05:19:05.693606 94391] Configuration file: /home/shae/.cache/Nuitka/ccache/ccache.conf
+[2023-07-28T05:19:05.693608 94391] System configuration file: /etc/ccache.conf
+[2023-07-28T05:19:05.693608 94391] Config: (default) absolute_paths_in_stderr = false
+[2023-07-28T05:19:05.693608 94391] Config: (default) base_dir = 
+[2023-07-28T05:19:05.693608 94391] Config: (environment) cache_dir = /home/shae/.cache/Nuitka/ccache
+[2023-07-28T05:19:05.693608 94391] Config: (default) compiler = 
+[2023-07-28T05:19:05.693608 94391] Config: (default) compiler_check = mtime
+[2023-07-28T05:19:05.693608 94391] Config: (default) compiler_type = auto
+[2023-07-28T05:19:05.693608 94391] Config: (default) compression = true
+[2023-07-28T05:19:05.693608 94391] Config: (default) compression_level = 0
+[2023-07-28T05:19:05.693608 94391] Config: (default) cpp_extension = 
+[2023-07-28T05:19:05.693608 94391] Config: (default) debug = false
+[2023-07-28T05:19:05.693608 94391] Config: (default) debug_dir = 
+[2023-07-28T05:19:05.693608 94391] Config: (default) depend_mode = false
+[2023-07-28T05:19:05.693608 94391] Config: (default) direct_mode = true
+[2023-07-28T05:19:05.693608 94391] Config: (default) disable = false
+[2023-07-28T05:19:05.693608 94391] Config: (default) extra_files_to_hash = 
+[2023-07-28T05:19:05.693608 94391] Config: (default) file_clone = false
+[2023-07-28T05:19:05.693608 94391] Config: (default) hard_link = false
+[2023-07-28T05:19:05.693608 94391] Config: (default) hash_dir = true
+[2023-07-28T05:19:05.693608 94391] Config: (default) ignore_headers_in_manifest = 
+[2023-07-28T05:19:05.693608 94391] Config: (default) ignore_options = 
+[2023-07-28T05:19:05.693608 94391] Config: (default) inode_cache = false
+[2023-07-28T05:19:05.693608 94391] Config: (default) keep_comments_cpp = false
+[2023-07-28T05:19:05.693608 94391] Config: (default) limit_multiple = 0.8
+[2023-07-28T05:19:05.693608 94391] Config: (environment) log_file = /home/shae/Code/cli/python/mkshell/mkshell.build/ccache-94357.txt
+[2023-07-28T05:19:05.693608 94391] Config: (default) max_files = 0
+[2023-07-28T05:19:05.693608 94391] Config: (default) max_size = 5.0G
+[2023-07-28T05:19:05.693608 94391] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-07-28T05:19:05.693608 94391] Config: (default) namespace = 
+[2023-07-28T05:19:05.693608 94391] Config: (default) path = 
+[2023-07-28T05:19:05.693608 94391] Config: (default) pch_external_checksum = false
+[2023-07-28T05:19:05.693608 94391] Config: (default) prefix_command = 
+[2023-07-28T05:19:05.693608 94391] Config: (default) prefix_command_cpp = 
+[2023-07-28T05:19:05.693608 94391] Config: (default) read_only = false
+[2023-07-28T05:19:05.693608 94391] Config: (default) read_only_direct = false
+[2023-07-28T05:19:05.693608 94391] Config: (default) recache = false
+[2023-07-28T05:19:05.693608 94391] Config: (default) remote_only = false
+[2023-07-28T05:19:05.693608 94391] Config: (default) remote_storage = 
+[2023-07-28T05:19:05.693608 94391] Config: (default) reshare = false
+[2023-07-28T05:19:05.693608 94391] Config: (default) run_second_cpp = true
+[2023-07-28T05:19:05.693608 94391] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-07-28T05:19:05.693608 94391] Config: (default) stats = true
+[2023-07-28T05:19:05.693608 94391] Config: (default) stats_log = 
+[2023-07-28T05:19:05.693608 94391] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-07-28T05:19:05.693608 94391] Config: (default) umask = 
+[2023-07-28T05:19:05.693629 94391] Command line: /usr/bin/ccache /usr/bin/gcc -o module.mkshell.cli.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -fPIC -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.11 -I. -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/include -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/static_src module.mkshell.cli.c
+[2023-07-28T05:19:05.693636 94391] Hostname: egirl
+[2023-07-28T05:19:05.693637 94391] Working directory: /home/shae/Code/cli/python/mkshell/mkshell.build
+[2023-07-28T05:19:05.693639 94391] Compiler type: gcc
+[2023-07-28T05:19:05.693667 94391] Source file: module.mkshell.cli.c
+[2023-07-28T05:19:05.693669 94391] Object file: module.mkshell.cli.o
+[2023-07-28T05:19:05.693675 94391] Trying direct lookup
+[2023-07-28T05:19:05.693742 94391] Manifest key: d93efskc632jvp512i9ovfqcs2pd3vsvq
+[2023-07-28T05:19:05.693753 94391] Retrieved d93efskc632jvp512i9ovfqcs2pd3vsvq from local storage (/home/shae/.cache/Nuitka/ccache/d/9/3efskc632jvp512i9ovfqcs2pd3vsvqM)
+[2023-07-28T05:19:05.694235 94392] === CCACHE 4.7.5 STARTED =========================================
+[2023-07-28T05:19:05.694249 94392] Configuration file: /home/shae/.cache/Nuitka/ccache/ccache.conf
+[2023-07-28T05:19:05.694252 94392] System configuration file: /etc/ccache.conf
+[2023-07-28T05:19:05.694252 94392] Config: (default) absolute_paths_in_stderr = false
+[2023-07-28T05:19:05.694252 94392] Config: (default) base_dir = 
+[2023-07-28T05:19:05.694252 94392] Config: (environment) cache_dir = /home/shae/.cache/Nuitka/ccache
+[2023-07-28T05:19:05.694252 94392] Config: (default) compiler = 
+[2023-07-28T05:19:05.694252 94392] Config: (default) compiler_check = mtime
+[2023-07-28T05:19:05.694252 94392] Config: (default) compiler_type = auto
+[2023-07-28T05:19:05.694252 94392] Config: (default) compression = true
+[2023-07-28T05:19:05.694252 94392] Config: (default) compression_level = 0
+[2023-07-28T05:19:05.694252 94392] Config: (default) cpp_extension = 
+[2023-07-28T05:19:05.694252 94392] Config: (default) debug = false
+[2023-07-28T05:19:05.694252 94392] Config: (default) debug_dir = 
+[2023-07-28T05:19:05.694252 94392] Config: (default) depend_mode = false
+[2023-07-28T05:19:05.694252 94392] Config: (default) direct_mode = true
+[2023-07-28T05:19:05.694252 94392] Config: (default) disable = false
+[2023-07-28T05:19:05.694252 94392] Config: (default) extra_files_to_hash = 
+[2023-07-28T05:19:05.694252 94392] Config: (default) file_clone = false
+[2023-07-28T05:19:05.694252 94392] Config: (default) hard_link = false
+[2023-07-28T05:19:05.694252 94392] Config: (default) hash_dir = true
+[2023-07-28T05:19:05.694252 94392] Config: (default) ignore_headers_in_manifest = 
+[2023-07-28T05:19:05.694252 94392] Config: (default) ignore_options = 
+[2023-07-28T05:19:05.694252 94392] Config: (default) inode_cache = false
+[2023-07-28T05:19:05.694252 94392] Config: (default) keep_comments_cpp = false
+[2023-07-28T05:19:05.694252 94392] Config: (default) limit_multiple = 0.8
+[2023-07-28T05:19:05.694252 94392] Config: (environment) log_file = /home/shae/Code/cli/python/mkshell/mkshell.build/ccache-94357.txt
+[2023-07-28T05:19:05.694252 94392] Config: (default) max_files = 0
+[2023-07-28T05:19:05.694252 94392] Config: (default) max_size = 5.0G
+[2023-07-28T05:19:05.694252 94392] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-07-28T05:19:05.694252 94392] Config: (default) namespace = 
+[2023-07-28T05:19:05.694252 94392] Config: (default) path = 
+[2023-07-28T05:19:05.694252 94392] Config: (default) pch_external_checksum = false
+[2023-07-28T05:19:05.694252 94392] Config: (default) prefix_command = 
+[2023-07-28T05:19:05.694252 94392] Config: (default) prefix_command_cpp = 
+[2023-07-28T05:19:05.694252 94392] Config: (default) read_only = false
+[2023-07-28T05:19:05.694252 94392] Config: (default) read_only_direct = false
+[2023-07-28T05:19:05.694252 94392] Config: (default) recache = false
+[2023-07-28T05:19:05.694252 94392] Config: (default) remote_only = false
+[2023-07-28T05:19:05.694252 94392] Config: (default) remote_storage = 
+[2023-07-28T05:19:05.694252 94392] Config: (default) reshare = false
+[2023-07-28T05:19:05.694252 94392] Config: (default) run_second_cpp = true
+[2023-07-28T05:19:05.694252 94392] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-07-28T05:19:05.694252 94392] Config: (default) stats = true
+[2023-07-28T05:19:05.694252 94392] Config: (default) stats_log = 
+[2023-07-28T05:19:05.694252 94392] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-07-28T05:19:05.694252 94392] Config: (default) umask = 
+[2023-07-28T05:19:05.694277 94392] Command line: /usr/bin/ccache /usr/bin/gcc -o module.mkshell.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -fPIC -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.11 -I. -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/include -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/static_src module.mkshell.c
+[2023-07-28T05:19:05.694287 94392] Hostname: egirl
+[2023-07-28T05:19:05.694290 94392] Working directory: /home/shae/Code/cli/python/mkshell/mkshell.build
+[2023-07-28T05:19:05.694292 94392] Compiler type: gcc
+[2023-07-28T05:19:05.694335 94392] Source file: module.mkshell.c
+[2023-07-28T05:19:05.694337 94392] Object file: module.mkshell.o
+[2023-07-28T05:19:05.694347 94392] Trying direct lookup
+[2023-07-28T05:19:05.694396 94392] Manifest key: 634am78c92d3ur4m6m091uih4uteeffp6
+[2023-07-28T05:19:05.694410 94392] Retrieved 634am78c92d3ur4m6m091uih4uteeffp6 from local storage (/home/shae/.cache/Nuitka/ccache/6/3/4am78c92d3ur4m6m091uih4uteeffp6M)
+[2023-07-28T05:19:05.696079 94391] Got result key from manifest
+[2023-07-28T05:19:05.696091 94391] Result key: 83d30fvu399vbtb9mvtu817rm2ug0c8h0
+[2023-07-28T05:19:05.696110 94391] Retrieved 83d30fvu399vbtb9mvtu817rm2ug0c8h0 from local storage (/home/shae/.cache/Nuitka/ccache/8/3/d30fvu399vbtb9mvtu817rm2ug0c8h0R)
+[2023-07-28T05:19:05.696161 94391] Reading embedded entry #0 .o (45184 bytes)
+[2023-07-28T05:19:05.696164 94391] Writing to module.mkshell.cli.o
+[2023-07-28T05:19:05.696200 94391] Succeeded getting cached result
+[2023-07-28T05:19:05.696205 94391] Result: direct_cache_hit
+[2023-07-28T05:19:05.696206 94391] Result: local_storage_hit
+[2023-07-28T05:19:05.696207 94391] Result: local_storage_read_hit
+[2023-07-28T05:19:05.696208 94391] Result: local_storage_read_hit
+[2023-07-28T05:19:05.696214 94391] Acquiring /home/shae/.cache/Nuitka/ccache/b/7/stats.lock
+[2023-07-28T05:19:05.696261 94391] Acquired /home/shae/.cache/Nuitka/ccache/b/7/stats.lock
+[2023-07-28T05:19:05.696292 94391] Releasing /home/shae/.cache/Nuitka/ccache/b/7/stats.lock
+[2023-07-28T05:19:05.696302 94391] Unlink /home/shae/.cache/Nuitka/ccache/b/7/stats.lock
+[2023-07-28T05:19:05.696304 94391] Released /home/shae/.cache/Nuitka/ccache/b/7/stats.lock
+[2023-07-28T05:19:05.697069 94392] Got result key from manifest
+[2023-07-28T05:19:05.697081 94392] Result key: f7cfqtmm0fbit0rfih2q46kj8ohrg5ko2
+[2023-07-28T05:19:05.697103 94392] Retrieved f7cfqtmm0fbit0rfih2q46kj8ohrg5ko2 from local storage (/home/shae/.cache/Nuitka/ccache/f/7/cfqtmm0fbit0rfih2q46kj8ohrg5ko2R)
+[2023-07-28T05:19:05.697137 94392] Reading embedded entry #0 .o (14192 bytes)
+[2023-07-28T05:19:05.697140 94392] Writing to module.mkshell.o
+[2023-07-28T05:19:05.697167 94392] Succeeded getting cached result
+[2023-07-28T05:19:05.697173 94392] Result: direct_cache_hit
+[2023-07-28T05:19:05.697176 94392] Result: local_storage_hit
+[2023-07-28T05:19:05.697178 94392] Result: local_storage_read_hit
+[2023-07-28T05:19:05.697180 94392] Result: local_storage_read_hit
+[2023-07-28T05:19:05.697186 94392] Acquiring /home/shae/.cache/Nuitka/ccache/b/8/stats.lock
+[2023-07-28T05:19:05.697223 94392] Acquired /home/shae/.cache/Nuitka/ccache/b/8/stats.lock
+[2023-07-28T05:19:05.697255 94392] Releasing /home/shae/.cache/Nuitka/ccache/b/8/stats.lock
+[2023-07-28T05:19:05.697266 94392] Unlink /home/shae/.cache/Nuitka/ccache/b/8/stats.lock
+[2023-07-28T05:19:05.697269 94392] Released /home/shae/.cache/Nuitka/ccache/b/8/stats.lock
+[2023-07-28T05:19:05.697952 94394] === CCACHE 4.7.5 STARTED =========================================
+[2023-07-28T05:19:05.697961 94394] Configuration file: /home/shae/.cache/Nuitka/ccache/ccache.conf
+[2023-07-28T05:19:05.697963 94394] System configuration file: /etc/ccache.conf
+[2023-07-28T05:19:05.697963 94394] Config: (default) absolute_paths_in_stderr = false
+[2023-07-28T05:19:05.697963 94394] Config: (default) base_dir = 
+[2023-07-28T05:19:05.697963 94394] Config: (environment) cache_dir = /home/shae/.cache/Nuitka/ccache
+[2023-07-28T05:19:05.697963 94394] Config: (default) compiler = 
+[2023-07-28T05:19:05.697963 94394] Config: (default) compiler_check = mtime
+[2023-07-28T05:19:05.697963 94394] Config: (default) compiler_type = auto
+[2023-07-28T05:19:05.697963 94394] Config: (default) compression = true
+[2023-07-28T05:19:05.697963 94394] Config: (default) compression_level = 0
+[2023-07-28T05:19:05.697963 94394] Config: (default) cpp_extension = 
+[2023-07-28T05:19:05.697963 94394] Config: (default) debug = false
+[2023-07-28T05:19:05.697963 94394] Config: (default) debug_dir = 
+[2023-07-28T05:19:05.697963 94394] Config: (default) depend_mode = false
+[2023-07-28T05:19:05.697963 94394] Config: (default) direct_mode = true
+[2023-07-28T05:19:05.697963 94394] Config: (default) disable = false
+[2023-07-28T05:19:05.697963 94394] Config: (default) extra_files_to_hash = 
+[2023-07-28T05:19:05.697963 94394] Config: (default) file_clone = false
+[2023-07-28T05:19:05.697963 94394] Config: (default) hard_link = false
+[2023-07-28T05:19:05.697963 94394] Config: (default) hash_dir = true
+[2023-07-28T05:19:05.697963 94394] Config: (default) ignore_headers_in_manifest = 
+[2023-07-28T05:19:05.697963 94394] Config: (default) ignore_options = 
+[2023-07-28T05:19:05.697963 94394] Config: (default) inode_cache = false
+[2023-07-28T05:19:05.697963 94394] Config: (default) keep_comments_cpp = false
+[2023-07-28T05:19:05.697963 94394] Config: (default) limit_multiple = 0.8
+[2023-07-28T05:19:05.697963 94394] Config: (environment) log_file = /home/shae/Code/cli/python/mkshell/mkshell.build/ccache-94357.txt
+[2023-07-28T05:19:05.697963 94394] Config: (default) max_files = 0
+[2023-07-28T05:19:05.697963 94394] Config: (default) max_size = 5.0G
+[2023-07-28T05:19:05.697963 94394] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-07-28T05:19:05.697963 94394] Config: (default) namespace = 
+[2023-07-28T05:19:05.697963 94394] Config: (default) path = 
+[2023-07-28T05:19:05.697963 94394] Config: (default) pch_external_checksum = false
+[2023-07-28T05:19:05.697963 94394] Config: (default) prefix_command = 
+[2023-07-28T05:19:05.697963 94394] Config: (default) prefix_command_cpp = 
+[2023-07-28T05:19:05.697963 94394] Config: (default) read_only = false
+[2023-07-28T05:19:05.697963 94394] Config: (default) read_only_direct = false
+[2023-07-28T05:19:05.697963 94394] Config: (default) recache = false
+[2023-07-28T05:19:05.697963 94394] Config: (default) remote_only = false
+[2023-07-28T05:19:05.697963 94394] Config: (default) remote_storage = 
+[2023-07-28T05:19:05.697963 94394] Config: (default) reshare = false
+[2023-07-28T05:19:05.697963 94394] Config: (default) run_second_cpp = true
+[2023-07-28T05:19:05.697963 94394] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-07-28T05:19:05.697963 94394] Config: (default) stats = true
+[2023-07-28T05:19:05.697963 94394] Config: (default) stats_log = 
+[2023-07-28T05:19:05.697963 94394] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-07-28T05:19:05.697963 94394] Config: (default) umask = 
+[2023-07-28T05:19:05.697984 94394] Command line: /usr/bin/ccache /usr/bin/gcc -o module.mkshell.memory.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -fPIC -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.11 -I. -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/include -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/static_src module.mkshell.memory.c
+[2023-07-28T05:19:05.697991 94394] Hostname: egirl
+[2023-07-28T05:19:05.697993 94394] Working directory: /home/shae/Code/cli/python/mkshell/mkshell.build
+[2023-07-28T05:19:05.697994 94394] Compiler type: gcc
+[2023-07-28T05:19:05.698023 94394] Source file: module.mkshell.memory.c
+[2023-07-28T05:19:05.698025 94394] Object file: module.mkshell.memory.o
+[2023-07-28T05:19:05.698030 94394] Trying direct lookup
+[2023-07-28T05:19:05.698097 94394] Manifest key: 8800b705g25s9ietf9o87r4a64kt61ij8
+[2023-07-28T05:19:05.698108 94394] Retrieved 8800b705g25s9ietf9o87r4a64kt61ij8 from local storage (/home/shae/.cache/Nuitka/ccache/8/8/00b705g25s9ietf9o87r4a64kt61ij8M)
+[2023-07-28T05:19:05.707078 94396] === CCACHE 4.7.5 STARTED =========================================
+[2023-07-28T05:19:05.707097 94396] Configuration file: /home/shae/.cache/Nuitka/ccache/ccache.conf
+[2023-07-28T05:19:05.707100 94396] System configuration file: /etc/ccache.conf
+[2023-07-28T05:19:05.707100 94396] Config: (default) absolute_paths_in_stderr = false
+[2023-07-28T05:19:05.707100 94396] Config: (default) base_dir = 
+[2023-07-28T05:19:05.707100 94396] Config: (environment) cache_dir = /home/shae/.cache/Nuitka/ccache
+[2023-07-28T05:19:05.707100 94396] Config: (default) compiler = 
+[2023-07-28T05:19:05.707100 94396] Config: (default) compiler_check = mtime
+[2023-07-28T05:19:05.707100 94396] Config: (default) compiler_type = auto
+[2023-07-28T05:19:05.707100 94396] Config: (default) compression = true
+[2023-07-28T05:19:05.707100 94396] Config: (default) compression_level = 0
+[2023-07-28T05:19:05.707100 94396] Config: (default) cpp_extension = 
+[2023-07-28T05:19:05.707100 94396] Config: (default) debug = false
+[2023-07-28T05:19:05.707100 94396] Config: (default) debug_dir = 
+[2023-07-28T05:19:05.707100 94396] Config: (default) depend_mode = false
+[2023-07-28T05:19:05.707100 94396] Config: (default) direct_mode = true
+[2023-07-28T05:19:05.707100 94396] Config: (default) disable = false
+[2023-07-28T05:19:05.707100 94396] Config: (default) extra_files_to_hash = 
+[2023-07-28T05:19:05.707100 94396] Config: (default) file_clone = false
+[2023-07-28T05:19:05.707100 94396] Config: (default) hard_link = false
+[2023-07-28T05:19:05.707100 94396] Config: (default) hash_dir = true
+[2023-07-28T05:19:05.707100 94396] Config: (default) ignore_headers_in_manifest = 
+[2023-07-28T05:19:05.707100 94396] Config: (default) ignore_options = 
+[2023-07-28T05:19:05.707100 94396] Config: (default) inode_cache = false
+[2023-07-28T05:19:05.707100 94396] Config: (default) keep_comments_cpp = false
+[2023-07-28T05:19:05.707100 94396] Config: (default) limit_multiple = 0.8
+[2023-07-28T05:19:05.707100 94396] Config: (environment) log_file = /home/shae/Code/cli/python/mkshell/mkshell.build/ccache-94357.txt
+[2023-07-28T05:19:05.707100 94396] Config: (default) max_files = 0
+[2023-07-28T05:19:05.707100 94396] Config: (default) max_size = 5.0G
+[2023-07-28T05:19:05.707100 94396] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-07-28T05:19:05.707100 94396] Config: (default) namespace = 
+[2023-07-28T05:19:05.707100 94396] Config: (default) path = 
+[2023-07-28T05:19:05.707100 94396] Config: (default) pch_external_checksum = false
+[2023-07-28T05:19:05.707100 94396] Config: (default) prefix_command = 
+[2023-07-28T05:19:05.707100 94396] Config: (default) prefix_command_cpp = 
+[2023-07-28T05:19:05.707100 94396] Config: (default) read_only = false
+[2023-07-28T05:19:05.707100 94396] Config: (default) read_only_direct = false
+[2023-07-28T05:19:05.707100 94396] Config: (default) recache = false
+[2023-07-28T05:19:05.707100 94396] Config: (default) remote_only = false
+[2023-07-28T05:19:05.707100 94396] Config: (default) remote_storage = 
+[2023-07-28T05:19:05.707100 94396] Config: (default) reshare = false
+[2023-07-28T05:19:05.707100 94396] Config: (default) run_second_cpp = true
+[2023-07-28T05:19:05.707100 94396] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-07-28T05:19:05.707100 94396] Config: (default) stats = true
+[2023-07-28T05:19:05.707100 94396] Config: (default) stats_log = 
+[2023-07-28T05:19:05.707100 94396] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-07-28T05:19:05.707100 94396] Config: (default) umask = 
+[2023-07-28T05:19:05.707127 94396] Command line: /usr/bin/ccache /usr/bin/gcc -o module.mkshell.parser.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -fPIC -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.11 -I. -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/include -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/static_src module.mkshell.parser.c
+[2023-07-28T05:19:05.707136 94396] Hostname: egirl
+[2023-07-28T05:19:05.707139 94396] Working directory: /home/shae/Code/cli/python/mkshell/mkshell.build
+[2023-07-28T05:19:05.707141 94396] Compiler type: gcc
+[2023-07-28T05:19:05.707182 94396] Source file: module.mkshell.parser.c
+[2023-07-28T05:19:05.707185 94396] Object file: module.mkshell.parser.o
+[2023-07-28T05:19:05.707194 94396] Trying direct lookup
+[2023-07-28T05:19:05.707248 94396] Manifest key: 9e50lheh0cpr7euqpprcu5jdrmejkchmq
+[2023-07-28T05:19:05.707262 94396] Retrieved 9e50lheh0cpr7euqpprcu5jdrmejkchmq from local storage (/home/shae/.cache/Nuitka/ccache/9/e/50lheh0cpr7euqpprcu5jdrmejkchmqM)
+[2023-07-28T05:19:05.708104 94382] Got result key from preprocessor
+[2023-07-28T05:19:05.708166 94382] Result key: 4511etsaqvuq92d07grg0dbikrm4743ia
+[2023-07-28T05:19:05.708211 94382] No 4511etsaqvuq92d07grg0dbikrm4743ia in local storage
+[2023-07-28T05:19:05.708248 94382] Running real compiler
+[2023-07-28T05:19:05.708301 94382] Executing /usr/bin/gcc -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -fPIC -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.11 -I. -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/include -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/static_src -c -fdiagnostics-color -o __loader.o __loader.c
+[2023-07-28T05:19:05.708851 94394] Got result key from manifest
+[2023-07-28T05:19:05.708865 94394] Result key: b176mddsojnu4ht7osq07j8ofpb9os258
+[2023-07-28T05:19:05.708887 94394] Retrieved b176mddsojnu4ht7osq07j8ofpb9os258 from local storage (/home/shae/.cache/Nuitka/ccache/b/1/76mddsojnu4ht7osq07j8ofpb9os258R)
+[2023-07-28T05:19:05.708951 94394] Reading embedded entry #0 .o (41312 bytes)
+[2023-07-28T05:19:05.708996 94394] Writing to module.mkshell.memory.o
+[2023-07-28T05:19:05.709164 94394] Succeeded getting cached result
+[2023-07-28T05:19:05.709207 94394] Result: direct_cache_hit
+[2023-07-28T05:19:05.709243 94394] Result: local_storage_hit
+[2023-07-28T05:19:05.709279 94394] Result: local_storage_read_hit
+[2023-07-28T05:19:05.709314 94394] Result: local_storage_read_hit
+[2023-07-28T05:19:05.709367 94394] Acquiring /home/shae/.cache/Nuitka/ccache/b/a/stats.lock
+[2023-07-28T05:19:05.709435 94394] Acquired /home/shae/.cache/Nuitka/ccache/b/a/stats.lock
+[2023-07-28T05:19:05.709505 94396] Got result key from manifest
+[2023-07-28T05:19:05.709510 94394] Releasing /home/shae/.cache/Nuitka/ccache/b/a/stats.lock
+[2023-07-28T05:19:05.709516 94396] Result key: 8bc7hakbehjfc2mbe6td4o0noolvj36mo
+[2023-07-28T05:19:05.709536 94396] Retrieved 8bc7hakbehjfc2mbe6td4o0noolvj36mo from local storage (/home/shae/.cache/Nuitka/ccache/8/b/c7hakbehjfc2mbe6td4o0noolvj36moR)
+[2023-07-28T05:19:05.709570 94396] Reading embedded entry #0 .o (21704 bytes)
+[2023-07-28T05:19:05.709573 94396] Writing to module.mkshell.parser.o
+[2023-07-28T05:19:05.709597 94396] Succeeded getting cached result
+[2023-07-28T05:19:05.709603 94396] Result: direct_cache_hit
+[2023-07-28T05:19:05.709605 94396] Result: local_storage_hit
+[2023-07-28T05:19:05.709606 94396] Result: local_storage_read_hit
+[2023-07-28T05:19:05.709608 94396] Result: local_storage_read_hit
+[2023-07-28T05:19:05.709612 94396] Acquiring /home/shae/.cache/Nuitka/ccache/b/c/stats.lock
+[2023-07-28T05:19:05.709664 94396] Acquired /home/shae/.cache/Nuitka/ccache/b/c/stats.lock
+[2023-07-28T05:19:05.709694 94396] Releasing /home/shae/.cache/Nuitka/ccache/b/c/stats.lock
+[2023-07-28T05:19:05.709706 94396] Unlink /home/shae/.cache/Nuitka/ccache/b/c/stats.lock
+[2023-07-28T05:19:05.709708 94396] Released /home/shae/.cache/Nuitka/ccache/b/c/stats.lock
+[2023-07-28T05:19:05.709763 94394] Unlink /home/shae/.cache/Nuitka/ccache/b/a/stats.lock
+[2023-07-28T05:19:05.709801 94394] Released /home/shae/.cache/Nuitka/ccache/b/a/stats.lock
+[2023-07-28T05:19:05.718740 94401] === CCACHE 4.7.5 STARTED =========================================
+[2023-07-28T05:19:05.718758 94401] Configuration file: /home/shae/.cache/Nuitka/ccache/ccache.conf
+[2023-07-28T05:19:05.718762 94401] System configuration file: /etc/ccache.conf
+[2023-07-28T05:19:05.718762 94401] Config: (default) absolute_paths_in_stderr = false
+[2023-07-28T05:19:05.718762 94401] Config: (default) base_dir = 
+[2023-07-28T05:19:05.718762 94401] Config: (environment) cache_dir = /home/shae/.cache/Nuitka/ccache
+[2023-07-28T05:19:05.718762 94401] Config: (default) compiler = 
+[2023-07-28T05:19:05.718762 94401] Config: (default) compiler_check = mtime
+[2023-07-28T05:19:05.718762 94401] Config: (default) compiler_type = auto
+[2023-07-28T05:19:05.718762 94401] Config: (default) compression = true
+[2023-07-28T05:19:05.718762 94401] Config: (default) compression_level = 0
+[2023-07-28T05:19:05.718762 94401] Config: (default) cpp_extension = 
+[2023-07-28T05:19:05.718762 94401] Config: (default) debug = false
+[2023-07-28T05:19:05.718762 94401] Config: (default) debug_dir = 
+[2023-07-28T05:19:05.718762 94401] Config: (default) depend_mode = false
+[2023-07-28T05:19:05.718762 94401] Config: (default) direct_mode = true
+[2023-07-28T05:19:05.718762 94401] Config: (default) disable = false
+[2023-07-28T05:19:05.718762 94401] Config: (default) extra_files_to_hash = 
+[2023-07-28T05:19:05.718762 94401] Config: (default) file_clone = false
+[2023-07-28T05:19:05.718762 94401] Config: (default) hard_link = false
+[2023-07-28T05:19:05.718762 94401] Config: (default) hash_dir = true
+[2023-07-28T05:19:05.718762 94401] Config: (default) ignore_headers_in_manifest = 
+[2023-07-28T05:19:05.718762 94401] Config: (default) ignore_options = 
+[2023-07-28T05:19:05.718762 94401] Config: (default) inode_cache = false
+[2023-07-28T05:19:05.718762 94401] Config: (default) keep_comments_cpp = false
+[2023-07-28T05:19:05.718762 94401] Config: (default) limit_multiple = 0.8
+[2023-07-28T05:19:05.718762 94401] Config: (environment) log_file = /home/shae/Code/cli/python/mkshell/mkshell.build/ccache-94357.txt
+[2023-07-28T05:19:05.718762 94401] Config: (default) max_files = 0
+[2023-07-28T05:19:05.718762 94401] Config: (default) max_size = 5.0G
+[2023-07-28T05:19:05.718762 94401] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-07-28T05:19:05.718762 94401] Config: (default) namespace = 
+[2023-07-28T05:19:05.718762 94401] Config: (default) path = 
+[2023-07-28T05:19:05.718762 94401] Config: (default) pch_external_checksum = false
+[2023-07-28T05:19:05.718762 94401] Config: (default) prefix_command = 
+[2023-07-28T05:19:05.718762 94401] Config: (default) prefix_command_cpp = 
+[2023-07-28T05:19:05.718762 94401] Config: (default) read_only = false
+[2023-07-28T05:19:05.718762 94401] Config: (default) read_only_direct = false
+[2023-07-28T05:19:05.718762 94401] Config: (default) recache = false
+[2023-07-28T05:19:05.718762 94401] Config: (default) remote_only = false
+[2023-07-28T05:19:05.718762 94401] Config: (default) remote_storage = 
+[2023-07-28T05:19:05.718762 94401] Config: (default) reshare = false
+[2023-07-28T05:19:05.718762 94401] Config: (default) run_second_cpp = true
+[2023-07-28T05:19:05.718762 94401] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-07-28T05:19:05.718762 94401] Config: (default) stats = true
+[2023-07-28T05:19:05.718762 94401] Config: (default) stats_log = 
+[2023-07-28T05:19:05.718762 94401] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-07-28T05:19:05.718762 94401] Config: (default) umask = 
+[2023-07-28T05:19:05.718796 94401] Command line: /usr/bin/ccache /usr/bin/gcc -o module.mkshell.prompt.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -fPIC -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.11 -I. -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/include -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/static_src module.mkshell.prompt.c
+[2023-07-28T05:19:05.718806 94401] Hostname: egirl
+[2023-07-28T05:19:05.718809 94401] Working directory: /home/shae/Code/cli/python/mkshell/mkshell.build
+[2023-07-28T05:19:05.718812 94401] Compiler type: gcc
+[2023-07-28T05:19:05.718859 94401] Source file: module.mkshell.prompt.c
+[2023-07-28T05:19:05.718862 94401] Object file: module.mkshell.prompt.o
+[2023-07-28T05:19:05.718872 94401] Trying direct lookup
+[2023-07-28T05:19:05.718925 94401] Manifest key: 30ab8vauh5ud9e3rn30gbi67pi7hv1k5k
+[2023-07-28T05:19:05.718939 94401] Retrieved 30ab8vauh5ud9e3rn30gbi67pi7hv1k5k from local storage (/home/shae/.cache/Nuitka/ccache/3/0/ab8vauh5ud9e3rn30gbi67pi7hv1k5kM)
+[2023-07-28T05:19:05.721435 94401] Got result key from manifest
+[2023-07-28T05:19:05.721455 94401] Result key: 7750aqn012hkrgs1976hd26kdqg4ahnhe
+[2023-07-28T05:19:05.721478 94401] Retrieved 7750aqn012hkrgs1976hd26kdqg4ahnhe from local storage (/home/shae/.cache/Nuitka/ccache/7/7/50aqn012hkrgs1976hd26kdqg4ahnheR)
+[2023-07-28T05:19:05.721519 94401] Reading embedded entry #0 .o (14600 bytes)
+[2023-07-28T05:19:05.721522 94401] Writing to module.mkshell.prompt.o
+[2023-07-28T05:19:05.721566 94401] Succeeded getting cached result
+[2023-07-28T05:19:05.721575 94401] Result: direct_cache_hit
+[2023-07-28T05:19:05.721577 94401] Result: local_storage_hit
+[2023-07-28T05:19:05.721579 94401] Result: local_storage_read_hit
+[2023-07-28T05:19:05.721580 94401] Result: local_storage_read_hit
+[2023-07-28T05:19:05.721588 94401] Acquiring /home/shae/.cache/Nuitka/ccache/c/1/stats.lock
+[2023-07-28T05:19:05.721646 94401] Acquired /home/shae/.cache/Nuitka/ccache/c/1/stats.lock
+[2023-07-28T05:19:05.721688 94401] Releasing /home/shae/.cache/Nuitka/ccache/c/1/stats.lock
+[2023-07-28T05:19:05.721703 94401] Unlink /home/shae/.cache/Nuitka/ccache/c/1/stats.lock
+[2023-07-28T05:19:05.721705 94401] Released /home/shae/.cache/Nuitka/ccache/c/1/stats.lock
+[2023-07-28T05:19:05.721721 94403] === CCACHE 4.7.5 STARTED =========================================
+[2023-07-28T05:19:05.721730 94403] Configuration file: /home/shae/.cache/Nuitka/ccache/ccache.conf
+[2023-07-28T05:19:05.721732 94403] System configuration file: /etc/ccache.conf
+[2023-07-28T05:19:05.721732 94403] Config: (default) absolute_paths_in_stderr = false
+[2023-07-28T05:19:05.721732 94403] Config: (default) base_dir = 
+[2023-07-28T05:19:05.721732 94403] Config: (environment) cache_dir = /home/shae/.cache/Nuitka/ccache
+[2023-07-28T05:19:05.721732 94403] Config: (default) compiler = 
+[2023-07-28T05:19:05.721732 94403] Config: (default) compiler_check = mtime
+[2023-07-28T05:19:05.721732 94403] Config: (default) compiler_type = auto
+[2023-07-28T05:19:05.721732 94403] Config: (default) compression = true
+[2023-07-28T05:19:05.721732 94403] Config: (default) compression_level = 0
+[2023-07-28T05:19:05.721732 94403] Config: (default) cpp_extension = 
+[2023-07-28T05:19:05.721732 94403] Config: (default) debug = false
+[2023-07-28T05:19:05.721732 94403] Config: (default) debug_dir = 
+[2023-07-28T05:19:05.721732 94403] Config: (default) depend_mode = false
+[2023-07-28T05:19:05.721732 94403] Config: (default) direct_mode = true
+[2023-07-28T05:19:05.721732 94403] Config: (default) disable = false
+[2023-07-28T05:19:05.721732 94403] Config: (default) extra_files_to_hash = 
+[2023-07-28T05:19:05.721732 94403] Config: (default) file_clone = false
+[2023-07-28T05:19:05.721732 94403] Config: (default) hard_link = false
+[2023-07-28T05:19:05.721732 94403] Config: (default) hash_dir = true
+[2023-07-28T05:19:05.721732 94403] Config: (default) ignore_headers_in_manifest = 
+[2023-07-28T05:19:05.721732 94403] Config: (default) ignore_options = 
+[2023-07-28T05:19:05.721732 94403] Config: (default) inode_cache = false
+[2023-07-28T05:19:05.721732 94403] Config: (default) keep_comments_cpp = false
+[2023-07-28T05:19:05.721732 94403] Config: (default) limit_multiple = 0.8
+[2023-07-28T05:19:05.721732 94403] Config: (environment) log_file = /home/shae/Code/cli/python/mkshell/mkshell.build/ccache-94357.txt
+[2023-07-28T05:19:05.721732 94403] Config: (default) max_files = 0
+[2023-07-28T05:19:05.721732 94403] Config: (default) max_size = 5.0G
+[2023-07-28T05:19:05.721732 94403] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-07-28T05:19:05.721732 94403] Config: (default) namespace = 
+[2023-07-28T05:19:05.721732 94403] Config: (default) path = 
+[2023-07-28T05:19:05.721732 94403] Config: (default) pch_external_checksum = false
+[2023-07-28T05:19:05.721732 94403] Config: (default) prefix_command = 
+[2023-07-28T05:19:05.721732 94403] Config: (default) prefix_command_cpp = 
+[2023-07-28T05:19:05.721732 94403] Config: (default) read_only = false
+[2023-07-28T05:19:05.721732 94403] Config: (default) read_only_direct = false
+[2023-07-28T05:19:05.721732 94403] Config: (default) recache = false
+[2023-07-28T05:19:05.721732 94403] Config: (default) remote_only = false
+[2023-07-28T05:19:05.721732 94403] Config: (default) remote_storage = 
+[2023-07-28T05:19:05.721732 94403] Config: (default) reshare = false
+[2023-07-28T05:19:05.721732 94403] Config: (default) run_second_cpp = true
+[2023-07-28T05:19:05.721732 94403] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-07-28T05:19:05.721732 94403] Config: (default) stats = true
+[2023-07-28T05:19:05.721732 94403] Config: (default) stats_log = 
+[2023-07-28T05:19:05.721732 94403] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-07-28T05:19:05.721732 94403] Config: (default) umask = 
+[2023-07-28T05:19:05.721753 94403] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/MainProgram.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -fPIC -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.11 -I. -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/include -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/static_src static_src/MainProgram.c
+[2023-07-28T05:19:05.721760 94403] Hostname: egirl
+[2023-07-28T05:19:05.721762 94403] Working directory: /home/shae/Code/cli/python/mkshell/mkshell.build
+[2023-07-28T05:19:05.721763 94403] Compiler type: gcc
+[2023-07-28T05:19:05.721797 94403] Source file: static_src/MainProgram.c
+[2023-07-28T05:19:05.721799 94403] Object file: static_src/MainProgram.o
+[2023-07-28T05:19:05.721805 94403] Trying direct lookup
+[2023-07-28T05:19:05.721848 94403] Manifest key: e4e2mn4jta9bipf1ui9v7jf1rti0vp0uk
+[2023-07-28T05:19:05.721859 94403] Retrieved e4e2mn4jta9bipf1ui9v7jf1rti0vp0uk from local storage (/home/shae/.cache/Nuitka/ccache/e/4/e2mn4jta9bipf1ui9v7jf1rti0vp0ukM)
+[2023-07-28T05:19:05.721950 94403] Did not find result key in manifest
+[2023-07-28T05:19:05.721968 94403] Running preprocessor
+[2023-07-28T05:19:05.721979 94403] Executing /usr/bin/gcc -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -fPIC -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.11 -I. -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/include -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/static_src -E -o /run/user/1000/ccache-tmp/cpp_stdout.tmp.oLza4E.i static_src/MainProgram.c
+[2023-07-28T05:19:05.727709 94386] Got result key from preprocessor
+[2023-07-28T05:19:05.727732 94386] Result key: 3b07ho280p818tskbm4s9k73ltr3emi5o
+[2023-07-28T05:19:05.727749 94386] No 3b07ho280p818tskbm4s9k73ltr3emi5o in local storage
+[2023-07-28T05:19:05.727753 94386] Running real compiler
+[2023-07-28T05:19:05.727771 94386] Executing /usr/bin/gcc -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -fPIC -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.11 -I. -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/include -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/static_src -c -fdiagnostics-color -o module.mkshell.__main__.o module.mkshell.__main__.c
+[2023-07-28T05:19:05.752486 94382] Using default compression level 1
+[2023-07-28T05:19:05.752512 94382] Storing embedded entry #0 .o (4232 bytes) from __loader.o
+[2023-07-28T05:19:05.752653 94382] Stored 4511etsaqvuq92d07grg0dbikrm4743ia in local storage (/home/shae/.cache/Nuitka/ccache/4/5/11etsaqvuq92d07grg0dbikrm4743iaR)
+[2023-07-28T05:19:05.752937 94382] Added result key to manifest 1bcepcg1tsnf20s3lo0p9hm8giro9q20c
+[2023-07-28T05:19:05.752944 94382] Using default compression level 1
+[2023-07-28T05:19:05.753105 94382] Stored 1bcepcg1tsnf20s3lo0p9hm8giro9q20c in local storage (/home/shae/.cache/Nuitka/ccache/1/b/cepcg1tsnf20s3lo0p9hm8giro9q20cM)
+[2023-07-28T05:19:05.753119 94382] Result: cache_miss
+[2023-07-28T05:19:05.753122 94382] Result: direct_cache_miss
+[2023-07-28T05:19:05.753123 94382] Result: local_storage_miss
+[2023-07-28T05:19:05.753125 94382] Result: local_storage_read_miss
+[2023-07-28T05:19:05.753127 94382] Result: local_storage_read_miss
+[2023-07-28T05:19:05.753129 94382] Result: local_storage_write
+[2023-07-28T05:19:05.753130 94382] Result: local_storage_write
+[2023-07-28T05:19:05.753132 94382] Result: preprocessed_cache_miss
+[2023-07-28T05:19:05.753139 94382] Acquiring /home/shae/.cache/Nuitka/ccache/1/stats.lock
+[2023-07-28T05:19:05.753168 94382] Acquired /home/shae/.cache/Nuitka/ccache/1/stats.lock
+[2023-07-28T05:19:05.753313 94382] Releasing /home/shae/.cache/Nuitka/ccache/1/stats.lock
+[2023-07-28T05:19:05.753333 94382] Unlink /home/shae/.cache/Nuitka/ccache/1/stats.lock
+[2023-07-28T05:19:05.753337 94382] Released /home/shae/.cache/Nuitka/ccache/1/stats.lock
+[2023-07-28T05:19:05.753341 94382] Acquiring /home/shae/.cache/Nuitka/ccache/4/stats.lock
+[2023-07-28T05:19:05.753363 94382] Acquired /home/shae/.cache/Nuitka/ccache/4/stats.lock
+[2023-07-28T05:19:05.753481 94382] Releasing /home/shae/.cache/Nuitka/ccache/4/stats.lock
+[2023-07-28T05:19:05.753496 94382] Unlink /home/shae/.cache/Nuitka/ccache/4/stats.lock
+[2023-07-28T05:19:05.753498 94382] Released /home/shae/.cache/Nuitka/ccache/4/stats.lock
+[2023-07-28T05:19:05.753505 94382] Unlink /run/user/1000/ccache-tmp/stderr.tmp.3AjYig.tmp
+[2023-07-28T05:19:05.753509 94382] Unlink /run/user/1000/ccache-tmp/stdout.tmp.01hKhx.tmp
+[2023-07-28T05:19:05.753513 94382] Unlink /run/user/1000/ccache-tmp/stderr.tmp.NmYypm.tmp
+[2023-07-28T05:19:05.753552 94382] Unlink /run/user/1000/ccache-tmp/cpp_stdout.tmp.gr2eK4.i
+[2023-07-28T05:19:05.762676 94403] Got result key from preprocessor
+[2023-07-28T05:19:05.762706 94403] Result key: f8e9c11vh4r85j8lsla9tg1enp5j3l1um
+[2023-07-28T05:19:05.762725 94403] No f8e9c11vh4r85j8lsla9tg1enp5j3l1um in local storage
+[2023-07-28T05:19:05.762728 94403] Running real compiler
+[2023-07-28T05:19:05.762752 94403] Executing /usr/bin/gcc -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -fPIC -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.11 -I. -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/include -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/static_src -c -fdiagnostics-color -o static_src/MainProgram.o static_src/MainProgram.c
+[2023-07-28T05:19:05.778581 94413] === CCACHE 4.7.5 STARTED =========================================
+[2023-07-28T05:19:05.778607 94413] Configuration file: /home/shae/.cache/Nuitka/ccache/ccache.conf
+[2023-07-28T05:19:05.778611 94413] System configuration file: /etc/ccache.conf
+[2023-07-28T05:19:05.778611 94413] Config: (default) absolute_paths_in_stderr = false
+[2023-07-28T05:19:05.778611 94413] Config: (default) base_dir = 
+[2023-07-28T05:19:05.778611 94413] Config: (environment) cache_dir = /home/shae/.cache/Nuitka/ccache
+[2023-07-28T05:19:05.778611 94413] Config: (default) compiler = 
+[2023-07-28T05:19:05.778611 94413] Config: (default) compiler_check = mtime
+[2023-07-28T05:19:05.778611 94413] Config: (default) compiler_type = auto
+[2023-07-28T05:19:05.778611 94413] Config: (default) compression = true
+[2023-07-28T05:19:05.778611 94413] Config: (default) compression_level = 0
+[2023-07-28T05:19:05.778611 94413] Config: (default) cpp_extension = 
+[2023-07-28T05:19:05.778611 94413] Config: (default) debug = false
+[2023-07-28T05:19:05.778611 94413] Config: (default) debug_dir = 
+[2023-07-28T05:19:05.778611 94413] Config: (default) depend_mode = false
+[2023-07-28T05:19:05.778611 94413] Config: (default) direct_mode = true
+[2023-07-28T05:19:05.778611 94413] Config: (default) disable = false
+[2023-07-28T05:19:05.778611 94413] Config: (default) extra_files_to_hash = 
+[2023-07-28T05:19:05.778611 94413] Config: (default) file_clone = false
+[2023-07-28T05:19:05.778611 94413] Config: (default) hard_link = false
+[2023-07-28T05:19:05.778611 94413] Config: (default) hash_dir = true
+[2023-07-28T05:19:05.778611 94413] Config: (default) ignore_headers_in_manifest = 
+[2023-07-28T05:19:05.778611 94413] Config: (default) ignore_options = 
+[2023-07-28T05:19:05.778611 94413] Config: (default) inode_cache = false
+[2023-07-28T05:19:05.778611 94413] Config: (default) keep_comments_cpp = false
+[2023-07-28T05:19:05.778611 94413] Config: (default) limit_multiple = 0.8
+[2023-07-28T05:19:05.778611 94413] Config: (environment) log_file = /home/shae/Code/cli/python/mkshell/mkshell.build/ccache-94357.txt
+[2023-07-28T05:19:05.778611 94413] Config: (default) max_files = 0
+[2023-07-28T05:19:05.778611 94413] Config: (default) max_size = 5.0G
+[2023-07-28T05:19:05.778611 94413] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-07-28T05:19:05.778611 94413] Config: (default) namespace = 
+[2023-07-28T05:19:05.778611 94413] Config: (default) path = 
+[2023-07-28T05:19:05.778611 94413] Config: (default) pch_external_checksum = false
+[2023-07-28T05:19:05.778611 94413] Config: (default) prefix_command = 
+[2023-07-28T05:19:05.778611 94413] Config: (default) prefix_command_cpp = 
+[2023-07-28T05:19:05.778611 94413] Config: (default) read_only = false
+[2023-07-28T05:19:05.778611 94413] Config: (default) read_only_direct = false
+[2023-07-28T05:19:05.778611 94413] Config: (default) recache = false
+[2023-07-28T05:19:05.778611 94413] Config: (default) remote_only = false
+[2023-07-28T05:19:05.778611 94413] Config: (default) remote_storage = 
+[2023-07-28T05:19:05.778611 94413] Config: (default) reshare = false
+[2023-07-28T05:19:05.778611 94413] Config: (default) run_second_cpp = true
+[2023-07-28T05:19:05.778611 94413] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-07-28T05:19:05.778611 94413] Config: (default) stats = true
+[2023-07-28T05:19:05.778611 94413] Config: (default) stats_log = 
+[2023-07-28T05:19:05.778611 94413] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-07-28T05:19:05.778611 94413] Config: (default) umask = 
+[2023-07-28T05:19:05.778646 94413] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledFunctionType.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -fPIC -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.11 -I. -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/include -I/home/shae/.cache/pypoetry/virtualenvs/mkshell-GXxLlJdV-py3.11/lib64/python3.11/site-packages/nuitka/build/static_src static_src/CompiledFunctionType.c
+[2023-07-28T05:19:05.778663 94413] Hostname: egirl
+[2023-07-28T05:19:05.778666 94413] Working directory: /home/shae/Code/cli/python/mkshell/mkshell.build
+[2023-07-28T05:19:05.778669 94413] Compiler type: gcc
+[2023-07-28T05:19:05.778716 94413] Source file: static_src/CompiledFunctionType.c
+[2023-07-28T05:19:05.778719 94413] Object file: static_src/CompiledFunctionType.o
+[2023-07-28T05:19:05.778730 94413] Trying direct lookup
+[2023-07-28T05:19:05.778809 94413] Manifest key: 1f5e9m0ng2nbb8n4mlmgaipql34t50b0e
+[2023-07-28T05:19:05.778826 94413] Retrieved 1f5e9m0ng2nbb8n4mlmgaipql34t50b0e from local storage (/home/shae/.cache/Nuitka/ccache/1/f/5e9m0ng2nbb8n4mlmgaipql34t50b0eM)
+[2023-07-28T05:19:05.783128 94413] Got result key from manifest
+[2023-07-28T05:19:05.783138 94413] Result key: 20069bhmna74sud7pfa9k6o7vli7piq34
+[2023-07-28T05:19:05.783184 94413] Retrieved 20069bhmna74sud7pfa9k6o7vli7piq34 from local storage (/home/shae/.cache/Nuitka/ccache/2/0/069bhmna74sud7pfa9k6o7vli7piq34R)
+[2023-07-28T05:19:05.783859 94413] Reading embedded entry #0 .o (1100424 bytes)
+[2023-07-28T05:19:05.783862 94413] Writing to static_src/CompiledFunctionType.o
+[2023-07-28T05:19:05.784246 94413] Succeeded getting cached result
+[2023-07-28T05:19:05.784253 94413] Result: direct_cache_hit
+[2023-07-28T05:19:05.784254 94413] Result: local_storage_hit
+[2023-07-28T05:19:05.784255 94413] Result: local_storage_read_hit
+[2023-07-28T05:19:05.784256 94413] Result: local_storage_read_hit
+[2023-07-28T05:19:05.784263 94413] Acquiring /home/shae/.cache/Nuitka/ccache/c/d/stats.lock
+[2023-07-28T05:19:05.784313 94413] Acquired /home/shae/.cache/Nuitka/ccache/c/d/stats.lock
+[2023-07-28T05:19:05.784350 94413] Releasing /home/shae/.cache/Nuitka/ccache/c/d/stats.lock
+[2023-07-28T05:19:05.784359 94413] Unlink /home/shae/.cache/Nuitka/ccache/c/d/stats.lock
+[2023-07-28T05:19:05.784361 94413] Released /home/shae/.cache/Nuitka/ccache/c/d/stats.lock
+[2023-07-28T05:19:05.803875 94386] Using default compression level 1
+[2023-07-28T05:19:05.803897 94386] Storing embedded entry #0 .o (7112 bytes) from module.mkshell.__main__.o
+[2023-07-28T05:19:05.804036 94386] Stored 3b07ho280p818tskbm4s9k73ltr3emi5o in local storage (/home/shae/.cache/Nuitka/ccache/3/b/07ho280p818tskbm4s9k73ltr3emi5oR)
+[2023-07-28T05:19:05.804425 94386] Added result key to manifest 6ee3l6qf3cneaklbipjtgm1he3flpuflk
+[2023-07-28T05:19:05.804428 94386] Using default compression level 1
+[2023-07-28T05:19:05.804642 94386] Stored 6ee3l6qf3cneaklbipjtgm1he3flpuflk in local storage (/home/shae/.cache/Nuitka/ccache/6/e/e3l6qf3cneaklbipjtgm1he3flpuflkM)
+[2023-07-28T05:19:05.804656 94386] Result: cache_miss
+[2023-07-28T05:19:05.804658 94386] Result: direct_cache_miss
+[2023-07-28T05:19:05.804661 94386] Result: local_storage_miss
+[2023-07-28T05:19:05.804663 94386] Result: local_storage_read_miss
+[2023-07-28T05:19:05.804665 94386] Result: local_storage_read_miss
+[2023-07-28T05:19:05.804667 94386] Result: local_storage_write
+[2023-07-28T05:19:05.804669 94386] Result: local_storage_write
+[2023-07-28T05:19:05.804671 94386] Result: preprocessed_cache_miss
+[2023-07-28T05:19:05.804678 94386] Acquiring /home/shae/.cache/Nuitka/ccache/6/stats.lock
+[2023-07-28T05:19:05.804709 94386] Acquired /home/shae/.cache/Nuitka/ccache/6/stats.lock
+[2023-07-28T05:19:05.804768 94386] Releasing /home/shae/.cache/Nuitka/ccache/6/stats.lock
+[2023-07-28T05:19:05.804781 94386] Unlink /home/shae/.cache/Nuitka/ccache/6/stats.lock
+[2023-07-28T05:19:05.804784 94386] Released /home/shae/.cache/Nuitka/ccache/6/stats.lock
+[2023-07-28T05:19:05.804788 94386] Acquiring /home/shae/.cache/Nuitka/ccache/3/stats.lock
+[2023-07-28T05:19:05.804807 94386] Acquired /home/shae/.cache/Nuitka/ccache/3/stats.lock
+[2023-07-28T05:19:05.804859 94386] Releasing /home/shae/.cache/Nuitka/ccache/3/stats.lock
+[2023-07-28T05:19:05.804870 94386] Unlink /home/shae/.cache/Nuitka/ccache/3/stats.lock
+[2023-07-28T05:19:05.804872 94386] Released /home/shae/.cache/Nuitka/ccache/3/stats.lock
+[2023-07-28T05:19:05.804879 94386] Unlink /run/user/1000/ccache-tmp/stderr.tmp.u5faRa.tmp
+[2023-07-28T05:19:05.804883 94386] Unlink /run/user/1000/ccache-tmp/stdout.tmp.kZ3nTb.tmp
+[2023-07-28T05:19:05.804888 94386] Unlink /run/user/1000/ccache-tmp/stderr.tmp.X8FntJ.tmp
+[2023-07-28T05:19:05.804946 94386] Unlink /run/user/1000/ccache-tmp/cpp_stdout.tmp.3hbqoJ.i
+[2023-07-28T05:19:05.822598 94403] Using default compression level 1
+[2023-07-28T05:19:05.822616 94403] Storing embedded entry #0 .o (9072 bytes) from static_src/MainProgram.o
+[2023-07-28T05:19:05.822716 94403] Stored f8e9c11vh4r85j8lsla9tg1enp5j3l1um in local storage (/home/shae/.cache/Nuitka/ccache/f/8/e9c11vh4r85j8lsla9tg1enp5j3l1umR)
+[2023-07-28T05:19:05.823115 94403] Added result key to manifest e4e2mn4jta9bipf1ui9v7jf1rti0vp0uk
+[2023-07-28T05:19:05.823118 94403] Using default compression level 1
+[2023-07-28T05:19:05.823309 94403] Stored e4e2mn4jta9bipf1ui9v7jf1rti0vp0uk in local storage (/home/shae/.cache/Nuitka/ccache/e/4/e2mn4jta9bipf1ui9v7jf1rti0vp0ukM)
+[2023-07-28T05:19:05.823318 94403] Result: cache_miss
+[2023-07-28T05:19:05.823320 94403] Result: direct_cache_miss
+[2023-07-28T05:19:05.823321 94403] Result: local_storage_miss
+[2023-07-28T05:19:05.823326 94403] Result: local_storage_read_hit
+[2023-07-28T05:19:05.823328 94403] Result: local_storage_read_miss
+[2023-07-28T05:19:05.823330 94403] Result: local_storage_write
+[2023-07-28T05:19:05.823331 94403] Result: local_storage_write
+[2023-07-28T05:19:05.823332 94403] Result: preprocessed_cache_miss
+[2023-07-28T05:19:05.823336 94403] Acquiring /home/shae/.cache/Nuitka/ccache/f/stats.lock
+[2023-07-28T05:19:05.823362 94403] Acquired /home/shae/.cache/Nuitka/ccache/f/stats.lock
+[2023-07-28T05:19:05.823399 94403] Releasing /home/shae/.cache/Nuitka/ccache/f/stats.lock
+[2023-07-28T05:19:05.823406 94403] Unlink /home/shae/.cache/Nuitka/ccache/f/stats.lock
+[2023-07-28T05:19:05.823408 94403] Released /home/shae/.cache/Nuitka/ccache/f/stats.lock
+[2023-07-28T05:19:05.823412 94403] Unlink /run/user/1000/ccache-tmp/stderr.tmp.TbMWXS.tmp
+[2023-07-28T05:19:05.823414 94403] Unlink /run/user/1000/ccache-tmp/stdout.tmp.f3s99R.tmp
+[2023-07-28T05:19:05.823417 94403] Unlink /run/user/1000/ccache-tmp/stderr.tmp.GszSJp.tmp
+[2023-07-28T05:19:05.823450 94403] Unlink /run/user/1000/ccache-tmp/cpp_stdout.tmp.oLza4E.i

@@ -1,7 +1,7 @@
 import typer
 
-from .prompt import WELCOME_TEXT, loop, cerr, cout, Explainer
-from .memory import defaultMemory
+from mkshell.prompt import WELCOME_TEXT, loop, cerr, cout, Explainer
+from mkshell.memory import defaultMemory
 
 from typing import Optional, Union, Any, List
 from pathlib import Path

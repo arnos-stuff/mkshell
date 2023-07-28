@@ -1,4 +1,4 @@
-from .memory import defaultMemory, where, Query
+from mkshell.memory import defaultMemory, where, Query
 
-from .cli import app
-from .prompt import loop, WELCOME_TEXT
+from mkshell.cli import app
+from mkshell.prompt import WELCOME_TEXT, loop, cerr, cout, Explainer

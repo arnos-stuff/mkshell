@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "mkshell"
 version = "0.1.0"
-description = ""
-authors = ["volt-france <arno.veletanlic@volteuropa.org>"]
+description = "A tool to autogenerate pure shell CLI-like scripts easily."
+authors = ["arnos-stuff <mail@arnov.dev>"]
 readme = "README.md"
+homepage="https://github.com/arnos-stuff/mkshell"
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -16,6 +17,9 @@ addict = "^2.4.0"
 
 [tool.poetry.scripts]
 mkshell = "mkshell.cli:app"
+
+[tool.poetry.group.dev.dependencies]
+nuitka = "^1.7.7"
 
 [build-system]
 requires = ["poetry-core"]
