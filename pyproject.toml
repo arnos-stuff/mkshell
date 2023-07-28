@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mkshell"
+version = "0.1.0"
+description = ""
+authors = ["volt-france <arno.veletanlic@volteuropa.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typer = {extras = ["all"], version = "^0.9.0"}
+tqdm = "^4.65.0"
+pyyaml = "^6.0.1"
+quickbar = "^0.1.0"
+tinydb = "^4.8.0"
+addict = "^2.4.0"
+
+[tool.poetry.scripts]
+mkshell = "mkshell.cli:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
